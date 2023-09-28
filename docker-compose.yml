@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  web:
+    container_name: stress-test
+    image: nginx
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/usr/share/nginx/html
