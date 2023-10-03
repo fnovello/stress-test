@@ -9,7 +9,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="domain" elementType="Argument">
             <stringProp name="Argument.name">domain</stringProp>
-            <stringProp name="Argument.value">ec2-54-173-30-112.compute-1.amazonaws.com</stringProp>
+            <stringProp name="Argument.value">ec2-52-22-240-148.compute-1.amazonaws.com</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="base_path" elementType="Argument">
