@@ -1,9 +1,9 @@
 On docker
 -Dlog_level.jmeter=DEBUG -n -t ${pwd}/1-Scenario-Home-and-discover.jmx -l rr.jtl  -e -o report
 
--Dlog_level.jmeter=DEBUG -n -t ${pwd}/1-Scenario-Home-and-discover.jmx -l /ddmmyy-threads-ramup-loops.jtl  -e -o /ddmmyy-threads-ramup-loops
+-Dlog_level.jmeter=DEBUG -n -t ${pwd}/1-Scenario-Home-and-discover.jmx -l /ddmmyyyy-threads-ramup-loops.jtl  -e -o /ddmmyyyy-threads-ramup-loops
 
--Dlog_level.jmeter=DEBUG -n -t ${pwd}/1-Scenario-Home-and-discover.jmx -l /ddmmyy-threads-ramup-loops.jtl  -e -o /ddmmyy-threads-ramup-loops
+-Dlog_level.jmeter=DEBUG -n -t ${pwd}/1-Scenario-Home-and-discover.jmx -l /ddmmyyyy-threads-ramup-loops.jtl  -e -o /ddmmyyyy-threads-ramup-loops
 
 On ubuntu host
 
@@ -12,7 +12,7 @@ sudo ./jmeter -n -t /./stress-test/stress-test/1-Scenario-Home-and-discover-nogu
 sudo ./jmeter -n -t /./stress-test/stress-test/1-Scenario-Home-and-discover-nogui.jmx -l /./stress-test/stress-test/03102023-1000-60-3/03102023-1000-60-3_2.jtl -e -o /./stress-test/stress-test/03102023-1000-60-3
 
 
-http://52.201.236.69:8888/02102023-10-60-2/index.html
+http://52.201.236.69:8888/03102023-1000-60-2/index.html
 
 
 wget https://jmeter-plugins.org/get/ -O /opt/apache-jmeter-5.5/lib/ext/jmeter-plugins-manager.jar

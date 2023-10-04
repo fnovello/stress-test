@@ -1,0 +1,91 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1696364072179,655,Sign In Guest - /auth/guest/signin,200,OK,Thread Group 1-1,text,true,,1760,287,1,1,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/auth/guest/signin,649,0,429
+1696364075054,215,Featured list - products/digital/featured/list,200,OK,Thread Group 1-1,text,true,,1271,807,1,1,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/featured/list,215,0,0
+1696364076297,219,Get featured list by id,200,OK,Thread Group 1-1,text,true,,6291,832,1,1,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/featured/list/64a5b0ef1850e54a9ac2f2eb,212,0,0
+1696364076747,2,Debug Sampler,200,OK,Thread Group 1-1,text,true,,1400,0,1,1,null,0,0,0
+1696364078389,220,Get featured list by id,200,OK,Thread Group 1-1,text,true,,5756,832,1,1,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/featured/list/64a5bedc1850e54a9ac2fc72,220,0,0
+1696364079558,0,Debug Sampler,200,OK,Thread Group 1-1,text,true,,1500,0,2,2,null,0,0,0
+1696364081234,412,Sign In Guest - /auth/guest/signin,200,OK,Thread Group 1-2,text,true,,1760,287,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/auth/guest/signin,412,0,210
+1696364081511,231,Featured creators  - /users/feature/creator ,200,OK,Thread Group 1-1,text,true,,7015,798,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/users/feature/creator,221,0,0
+1696364082701,196,Get cart  - /cart,200,OK,Thread Group 1-1,text,true,,1053,781,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/cart,196,0,0
+1696364082885,201,Featured list - products/digital/featured/list,200,OK,Thread Group 1-2,text,true,,1271,807,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/featured/list,201,0,0
+1696364083414,193,Products category  - products/digital/category/count,200,OK,Thread Group 1-1,text,true,,1760,810,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/categories/count,193,0,0
+1696364084357,252,Get products by categoryId,200,OK,Thread Group 1-1,text,true,,8440,844,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/category/632b1de6c3df64fb693eac6c?page=1&limit=100,249,0,0
+1696364085439,219,Get featured list by id,200,OK,Thread Group 1-2,text,true,,6291,832,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/featured/list/64a5b0ef1850e54a9ac2f2eb,217,0,0
+1696364086029,0,Debug Sampler,200,OK,Thread Group 1-1,text,true,,1852,0,2,2,null,0,0,0
+1696364086574,219,Get products by categoryId,200,OK,Thread Group 1-1,text,true,,4525,844,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/category/632b1d75c3df64fb693eac6a?page=1&limit=100,216,0,0
+1696364087236,0,Debug Sampler,200,OK,Thread Group 1-1,text,true,,1852,0,2,2,null,0,0,0
+1696364087517,0,Debug Sampler,200,OK,Thread Group 1-2,text,true,,1399,0,2,2,null,0,0,0
+1696364087859,217,Get featured list by id,200,OK,Thread Group 1-2,text,true,,5756,832,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/featured/list/64a5bedc1850e54a9ac2fc72,209,0,0
+1696364088830,0,Debug Sampler,200,OK,Thread Group 1-2,text,true,,1499,0,2,2,null,0,0,0
+1696364088959,214,Get products by categoryId,200,OK,Thread Group 1-1,text,true,,2408,844,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/category/63ee4add7bedc7748f7f857f?page=1&limit=100,214,0,0
+1696364090502,1,Debug Sampler,200,OK,Thread Group 1-1,text,true,,1852,0,2,2,null,0,0,0
+1696364090433,227,Featured creators  - /users/feature/creator ,200,OK,Thread Group 1-2,text,true,,7015,798,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/users/feature/creator,223,0,0
+1696364090780,212,Get products by categoryId,200,OK,Thread Group 1-1,text,true,,3490,844,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/category/632b1dd7c3df64fb693eac6b?page=1&limit=100,212,0,0
+1696364091136,212,Get cart  - /cart,200,OK,Thread Group 1-2,text,true,,1053,781,3,3,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/cart,212,0,0
+1696364091460,197,Products category  - products/digital/category/count,200,OK,Thread Group 1-2,text,true,,1760,810,3,3,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/categories/count,196,0,0
+1696364092093,0,Debug Sampler,200,OK,Thread Group 1-1,text,true,,1852,0,3,3,null,0,0,0
+1696364092839,1,Debug Sampler,200,OK,Thread Group 1-1,text,true,,4768,0,3,3,null,0,0,0
+1696364092955,237,Get products by categoryId,200,OK,Thread Group 1-2,text,true,,8440,844,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/category/632b1de6c3df64fb693eac6c?page=1&limit=100,229,0,0
+1696364093332,0,Debug Sampler,200,OK,Thread Group 1-2,text,true,,1853,0,2,2,null,0,0,0
+1696364095730,220,Get products by categoryId,200,OK,Thread Group 1-2,text,true,,4525,844,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/category/632b1d75c3df64fb693eac6a?page=1&limit=100,220,0,0
+1696364096283,1,Debug Sampler,200,OK,Thread Group 1-2,text,true,,1853,0,2,2,null,0,0,0
+1696364096217,401,Sign In Guest - /auth/guest/signin,200,OK,Thread Group 1-3,text,true,,1760,287,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/auth/guest/signin,398,0,193
+1696364096503,207,Get products by categoryId,200,OK,Thread Group 1-2,text,true,,2408,844,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/category/63ee4add7bedc7748f7f857f?page=1&limit=100,207,0,0
+1696364097494,212,Featured list - products/digital/featured/list,200,OK,Thread Group 1-3,text,true,,1271,807,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/featured/list,212,0,0
+1696364098394,247,Get featured list by id,200,OK,Thread Group 1-3,text,true,,6291,832,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/featured/list/64a5b0ef1850e54a9ac2f2eb,247,0,0
+1696364099089,0,Debug Sampler,200,OK,Thread Group 1-2,text,true,,1853,0,2,2,null,0,0,0
+1696364099643,0,Debug Sampler,200,OK,Thread Group 1-3,text,true,,1400,0,2,2,null,0,0,0
+1696364101402,209,Get products by categoryId,200,OK,Thread Group 1-2,text,true,,3490,844,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/category/632b1dd7c3df64fb693eac6b?page=1&limit=100,205,0,0
+1696364102520,0,Debug Sampler,200,OK,Thread Group 1-2,text,true,,1853,0,2,2,null,0,0,0
+1696364102450,239,Get featured list by id,200,OK,Thread Group 1-3,text,true,,5756,832,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/featured/list/64a5bedc1850e54a9ac2fc72,238,0,0
+1696364104325,0,Debug Sampler,200,OK,Thread Group 1-3,text,true,,1500,0,3,3,null,0,0,0
+1696364105113,1,Debug Sampler,200,OK,Thread Group 1-2,text,true,,4767,0,3,3,null,0,0,0
+1696364105744,232,Featured creators  - /users/feature/creator ,200,OK,Thread Group 1-3,text,true,,7015,798,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/users/feature/creator,228,0,0
+1696364106404,215,Get cart  - /cart,200,OK,Thread Group 1-3,text,true,,1053,781,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/cart,215,0,0
+1696364106547,386,Sign In Guest - /auth/guest/signin,200,OK,Thread Group 1-4,text,true,,1760,287,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/auth/guest/signin,386,0,184
+1696364107084,194,Featured list - products/digital/featured/list,200,OK,Thread Group 1-4,text,true,,1271,807,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/featured/list,194,0,0
+1696364107145,202,Products category  - products/digital/category/count,200,OK,Thread Group 1-3,text,true,,1760,810,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/categories/count,202,0,0
+1696364107827,228,Get featured list by id,200,OK,Thread Group 1-4,text,true,,6291,832,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/featured/list/64a5b0ef1850e54a9ac2f2eb,225,0,0
+1696364109715,250,Get products by categoryId,200,OK,Thread Group 1-3,text,true,,8440,844,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/category/632b1de6c3df64fb693eac6c?page=1&limit=100,248,0,0
+1696364110330,1,Debug Sampler,200,OK,Thread Group 1-4,text,true,,1400,0,2,2,null,0,0,0
+1696364111259,0,Debug Sampler,200,OK,Thread Group 1-3,text,true,,1853,0,2,2,null,0,0,0
+1696364111858,210,Get featured list by id,200,OK,Thread Group 1-4,text,true,,5756,832,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/featured/list/64a5bedc1850e54a9ac2fc72,209,0,0
+1696364112585,233,Get products by categoryId,200,OK,Thread Group 1-3,text,true,,4525,844,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/category/632b1d75c3df64fb693eac6a?page=1&limit=100,222,0,0
+1696364114366,0,Debug Sampler,200,OK,Thread Group 1-4,text,true,,1500,0,2,2,null,0,0,0
+1696364115564,392,Sign In Guest - /auth/guest/signin,200,OK,Thread Group 1-5,text,true,,1760,287,3,3,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/auth/guest/signin,392,0,184
+1696364116020,0,Debug Sampler,200,OK,Thread Group 1-3,text,true,,1853,0,3,3,null,0,0,0
+1696364116266,206,Featured list - products/digital/featured/list,200,OK,Thread Group 1-5,text,true,,1271,807,3,3,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/featured/list,206,0,0
+1696364116300,207,Get products by categoryId,200,OK,Thread Group 1-3,text,true,,2408,844,3,3,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/category/63ee4add7bedc7748f7f857f?page=1&limit=100,207,0,0
+1696364116646,1,Debug Sampler,200,OK,Thread Group 1-3,text,true,,1853,0,3,3,null,0,0,0
+1696364116999,230,Get products by categoryId,200,OK,Thread Group 1-3,text,true,,3490,844,3,3,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/category/632b1dd7c3df64fb693eac6b?page=1&limit=100,230,0,0
+1696364117129,411,Featured creators  - /users/feature/creator ,200,OK,Thread Group 1-4,text,true,,7015,798,3,3,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/users/feature/creator,403,0,179
+1696364117795,219,Get featured list by id,200,OK,Thread Group 1-5,text,true,,6291,832,3,3,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/featured/list/64a5b0ef1850e54a9ac2f2eb,212,0,0
+1696364118274,0,Debug Sampler,200,OK,Thread Group 1-5,text,true,,1400,0,3,3,null,0,0,0
+1696364119012,195,Get cart  - /cart,200,OK,Thread Group 1-4,text,true,,1053,781,3,3,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/cart,195,0,0
+1696364119518,192,Products category  - products/digital/category/count,200,OK,Thread Group 1-4,text,true,,1760,810,3,3,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/categories/count,192,0,0
+1696364119700,212,Get featured list by id,200,OK,Thread Group 1-5,text,true,,5756,832,3,3,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/featured/list/64a5bedc1850e54a9ac2fc72,212,0,0
+1696364120269,0,Debug Sampler,200,OK,Thread Group 1-3,text,true,,1853,0,3,3,null,0,0,0
+1696364121080,0,Debug Sampler,200,OK,Thread Group 1-3,text,true,,4768,0,3,3,null,0,0,0
+1696364121535,0,Debug Sampler,200,OK,Thread Group 1-5,text,true,,1500,0,2,2,null,0,0,0
+1696364121636,260,Get products by categoryId,200,OK,Thread Group 1-4,text,true,,8440,844,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/category/632b1de6c3df64fb693eac6c?page=1&limit=100,257,0,0
+1696364123217,249,Featured creators  - /users/feature/creator ,200,OK,Thread Group 1-5,text,true,,7015,798,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/users/feature/creator,241,0,0
+1696364124812,216,Get cart  - /cart,200,OK,Thread Group 1-5,text,true,,1053,781,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/cart,216,0,0
+1696364125047,0,Debug Sampler,200,OK,Thread Group 1-4,text,true,,1853,0,2,2,null,0,0,0
+1696364125130,194,Products category  - products/digital/category/count,200,OK,Thread Group 1-5,text,true,,1760,810,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/categories/count,194,0,0
+1696364126499,236,Get products by categoryId,200,OK,Thread Group 1-5,text,true,,8440,844,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/category/632b1de6c3df64fb693eac6c?page=1&limit=100,230,0,0
+1696364127817,0,Debug Sampler,200,OK,Thread Group 1-5,text,true,,1852,0,2,2,null,0,0,0
+1696364127569,405,Get products by categoryId,200,OK,Thread Group 1-4,text,true,,4525,844,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/category/632b1d75c3df64fb693eac6a?page=1&limit=100,398,0,183
+1696364128270,0,Debug Sampler,200,OK,Thread Group 1-4,text,true,,1853,0,2,2,null,0,0,0
+1696364128637,244,Get products by categoryId,200,OK,Thread Group 1-5,text,true,,4525,844,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/category/632b1d75c3df64fb693eac6a?page=1&limit=100,244,0,0
+1696364129468,199,Get products by categoryId,200,OK,Thread Group 1-4,text,true,,2408,844,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/category/63ee4add7bedc7748f7f857f?page=1&limit=100,199,0,0
+1696364131525,0,Debug Sampler,200,OK,Thread Group 1-4,text,true,,1853,0,2,2,null,0,0,0
+1696364131752,1,Debug Sampler,200,OK,Thread Group 1-5,text,true,,1852,0,2,2,null,0,0,0
+1696364132645,205,Get products by categoryId,200,OK,Thread Group 1-5,text,true,,2408,844,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/category/63ee4add7bedc7748f7f857f?page=1&limit=100,204,0,0
+1696364132973,232,Get products by categoryId,200,OK,Thread Group 1-4,text,true,,3490,844,2,2,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/category/632b1dd7c3df64fb693eac6b?page=1&limit=100,224,0,0
+1696364133931,0,Debug Sampler,200,OK,Thread Group 1-5,text,true,,1852,0,2,2,null,0,0,0
+1696364134066,0,Debug Sampler,200,OK,Thread Group 1-4,text,true,,1853,0,2,2,null,0,0,0
+1696364136039,1,Debug Sampler,200,OK,Thread Group 1-4,text,true,,4768,0,2,2,null,0,0,0
+1696364137443,207,Get products by categoryId,200,OK,Thread Group 1-5,text,true,,3490,844,1,1,http://ec2-52-22-240-148.compute-1.amazonaws.com:8888/api/v1/products/digital/category/632b1dd7c3df64fb693eac6b?page=1&limit=100,207,0,0
+1696364139670,0,Debug Sampler,200,OK,Thread Group 1-5,text,true,,1852,0,1,1,null,0,0,0
+1696364141221,0,Debug Sampler,200,OK,Thread Group 1-5,text,true,,4768,0,1,1,null,0,0,0
