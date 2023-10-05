@@ -24,16 +24,17 @@ done
 
 if [ -z "${name}" ];
 then
-     prefix_folder_report=$(date +%d%m%Y)
+    prefix_folder_report=$(date +%d%m%Y)
 else
-      prefix_folder_report=$(date +%d%m%Y)${name}
+    prefix_folder_report=$(date +%d%m%Y)${name}
 fi
 
 export THREADS=$threads
 export RAMPUP=$rampup
 export LOOPS=$loops
 
-name_test="1-Scenario-Home-and-discover-nogui"
+# name_test="1-Scenario-Home-and-discover-nogui"
+name_test="2-Scenario-Cart-as-guest-nogui"
 name_folder_report=$prefix_folder_report 
 
 # Reporting dir: start fresh
