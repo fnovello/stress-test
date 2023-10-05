@@ -9,37 +9,50 @@
 # export TARGET_PORT="80"
 # export TARGET_PATH="/kaarten.html"
 # export TARGET_KEYWORD="Kaartdiensten"
-export THREADS="5"
-export RAMPUP="60"
-export LOOPS="1"
 
 
 T_DIR=reports
-name="1-Scenario-Home-and-discover-nogui"
-date="04102023"
+while getopts n:t:r:l: flag
+do
+    case "${flag}" in
+        n) name=${OPTARG};;
+        t) threads=${OPTARG};;
+        r) rampup=${OPTARG};;
+        l) loops=${OPTARG};;
+    esac
+done
+
+if [ -z "${name}" ];
+then
+     prefix_folder_report=$(date +%d%m%Y)
+else
+      prefix_folder_report=$(date +%d%m%Y)${name}
+fi
+
+export THREADS=$threads
+export RAMPUP=$rampup
+export LOOPS=$loops
+
+name_test="1-Scenario-Home-and-discover-nogui"
+name_folder_report=$prefix_folder_report 
+
 # Reporting dir: start fresh
-# R_DIR=${T_DIR}/report
+# R_DIR=${T_DIR}/${date}
 # rm -rf ${R_DIR} > /dev/null 2>&1
 # mkdir -p ${R_DIR}
-echo ${PWD}
 echo "--------------------------------------------------------"
-rm -rf ${T_DIR}/${date}-${THREADS}-${RAMPUP}-${LOOPS}  > /dev/null 2>&1
-folder=${T_DIR}/${date}-${THREADS}-${RAMPUP}-${LOOPS}
-mkdir ${T_DIR}/${folder}
-chmod +777 ${T_DIR}
+
+echo ${PWD}
+
+folder=${T_DIR}/${name_folder_report}-${THREADS}-${RAMPUP}-${LOOPS}
+rm -rf ${folder}  > /dev/null 2>&1
+# mkdir ${T_DIR}/${folder}
+mkdir ${folder}
+chmod +777 ${folder}
 
 ./run.sh -JTHREADS=${THREADS} -JRAMPUP=${RAMPUP} \
 	-JLOOPS=${LOOPS} \
-	-n -t ${PWD}/${name}.jmx -l ${PWD}/${folder}/${folder}.jtl \
+	-n -t ${PWD}/${name_test}.jmx -l ${PWD}/${folder}/${folder}.jtl \
 	-e -o ${PWD}/${folder}
 
-# -n -t ${pwd}/${name}.jmx -l ${pwd}/${name}.jtl -j ${date}-${THREADS}-${RAMPUP}-${LOOPS}/jmeter.log \
-
-# echo "==== jmeter.log ===="
-# cat ${T_DIR}/jmeter.log
-
-# echo "==== Raw Test Report ===="
-# cat ${T_DIR}/test-plan.jtl
-
-# echo "==== HTML Test Report ===="
-# echo "See HTML test report in ${R_DIR}/index.html"
+echo "--------------------------------------------------------"
