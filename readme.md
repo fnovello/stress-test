@@ -1,4 +1,7 @@
 On docker
+
+sudo ./main.sh -n cartasguest_a -t 1000 -r 60 -l 1
+
 -Dlog_level.jmeter=DEBUG -n -t ${pwd}/1-Scenario-Home-and-discover.jmx -l rr.jtl  -e -o report
 
 -Dlog_level.jmeter=DEBUG -n -t ${pwd}/1-Scenario-Home-and-discover.jmx -l /ddmmyyyy-threads-ramup-loops.jtl  -e -o /ddmmyyyy-threads-ramup-loops
