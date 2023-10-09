@@ -419,7 +419,7 @@ def getRandomNumberInRange(int lower, int upper){
         </HTTPSamplerProxy>
         <hashTree>
           <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
-            <stringProp name="ConstantTimer.delay">1200</stringProp>
+            <stringProp name="ConstantTimer.delay">1500</stringProp>
           </ConstantTimer>
           <hashTree/>
         </hashTree>
